@@ -1,0 +1,14 @@
+# settings.yaml
+training:
+  epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+
+model:
+  input_size: 784   # Example: 28x28 images flattened
+  hidden_size: 128
+  output_size: 10
+
+paths:
+  data_dir: "./data/"
+  model_save_path: "./checkpoints/model.pth"
